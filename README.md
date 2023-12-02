@@ -87,7 +87,7 @@ Now, your blog backend endpoints should be up and running!
 **Response:**
 ```json
 {
- message: `Post added successfully! Your Post Id is 12`
+ "message": "Post added successfully! Your Post Id is 12"
 }
 ```
 
@@ -120,7 +120,7 @@ Now, your blog backend endpoints should be up and running!
 **Response:**
 ```json
 {
-  "message": `Post deleted successfully! Your Post Id was 12 `
+  "message": "Post deleted successfully! Your Post Id was 12"
 }
 ```
 
@@ -137,8 +137,7 @@ Now, your blog backend endpoints should be up and running!
     "content": "This is the content of the sample post.",
     "author": "John Doe",
     "tags" : ["sample", "post"]
-  },
-  // More posts...
+  }
 ]
 ```
 
@@ -155,8 +154,7 @@ Now, your blog backend endpoints should be up and running!
     "content": "This is the content of the sample post.",
     "author": "John Doe",
     "tags" : ["sample", "post"]
-  },
-  // More posts...
+  }
 ]
 ```
 
@@ -173,8 +171,7 @@ Now, your blog backend endpoints should be up and running!
     "content": "This is the content of the sample post.",
     "author": "John Doe",
     "tags" : ["sample", "post"]
-  },
-  // More posts...
+  }
 ]
 ```
 
